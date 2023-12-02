@@ -3,7 +3,8 @@ local M = {}
 
 M.general = {
   n = {
-    [";"] = { ":", "enter command mode", opts = { nowait = true } },
+    [";"] = { ":", "Enter command mode", opts = { nowait = true } },
+    ["<leader>a"] = {"ggVG", "Select all"},
   },
   v = {
     [">"] = { ">gv", "indent"},

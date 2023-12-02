@@ -13,6 +13,7 @@ M.treesitter = {
     "markdown",
     "markdown_inline",
     "svelte",
+    "python"
   },
   indent = {
     enable = true,
@@ -21,6 +22,10 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
+    -- python
+    "pyright",
+    "autopep8",
+
     -- lua stuff
     "lua-language-server",
     "stylua",
